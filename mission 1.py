@@ -9,7 +9,7 @@ import pandas as pd
 conn = psycopg2.connect(database="postgres",
                         host="localhost",
                         user="postgres",
-                        password="ldeloffr",
+                        password="******",
                         port="5432")
 
 conn.autocommit = True
