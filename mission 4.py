@@ -27,7 +27,7 @@ def connection_postgres(database_name):
         database=database_name,
         host="localhost",
         user="postgres",
-        password="ldeloffr",
+        password="******",
         port="5432"
     )
 
@@ -57,7 +57,7 @@ def pagila_databases():
         database="postgres",  
         host="localhost",
         user="postgres",
-        password="ldeloffr",
+        password="******",
         port="5432"
     )
     with conn.cursor() as cur:
