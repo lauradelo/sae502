@@ -7,7 +7,7 @@ def connection_postgres(nom_bdd):
         database=nom_bdd,
         host="localhost",
         user="postgres",
-        password="ldeloffr",
+        password="******",
         port="5432"
     )
 
