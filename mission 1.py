@@ -76,7 +76,7 @@ for n in range (nb_table) :
     conn = psycopg2.connect(database=nom_bdd,
                         host="localhost",
                         user="postgres",
-                        password="ldeloffr",
+                        password="******",
                         port="5432")
     conn.autocommit = True
     cur = conn.cursor()
